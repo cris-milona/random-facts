@@ -1,0 +1,60 @@
+.Fact {
+  display: flex;
+  border-bottom: 2px solid var(--color-primary-light);
+  padding: 1em;
+}
+
+.Fact-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2em;
+}
+
+.Fact-votes {
+  width: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid var(--color-black);
+  box-shadow: 0 10px 38px rgba(0, 0, 0, 0.6);
+}
+
+.Fact-arrow-left,
+.Fact-arrow-right {
+  font-size: 01em;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+.Fact-arrow-left:hover {
+  animation: move-up 0.7s ease-out;
+}
+
+.Fact-arrow-right:hover {
+  animation: move-down 0.7s ease-out;
+}
+
+@keyframes move-up {
+  0%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  25%,
+  75% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes move-down {
+  0%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  25%,
+  75% {
+    transform: translateY(3px);
+  }
+}
