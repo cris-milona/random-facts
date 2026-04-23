@@ -1,3 +1,7 @@
+⚠️ This is an early-career project (2021–2022).
+It is not actively maintained and may contain outdated practices or vulnerabilities.
+It is preserved for portfolio/history purposes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
